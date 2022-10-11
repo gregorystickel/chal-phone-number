@@ -3,7 +3,7 @@ function convertPhone (array){
 array.splice(0,0,"(");
 array.splice(4,0,")");
 array.splice(5,0," ");
-array.splice(9,0," ")
+array.splice(9,0,"-");
 let result = array.join(''); 
 return result;
 };
